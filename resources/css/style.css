@@ -1,0 +1,67 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+
+header .logo {
+  border: 2px solid blue;
+  display: flex;
+  
+  align-items: center;
+  flex: 1;
+  margin-left: 24px;
+  font-size: 32px;
+}
+
+.logo img {
+  border: 2px solid yellow;
+  height: 48px;
+  padding: 0 3px;
+}
+
+header p {
+  display: inline-block;
+}
+
+.logo p span {
+  font-weight: bold;
+}
+
+header .logo span {
+}
+
+.desktop ul li {
+  display: inline;
+  font-size: 24px;
+  margin-right: 16px;
+}
+
+.desktop ul:last-child {
+  margin-right: 8px;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Main */
+
+
+
+
+/* Footer */

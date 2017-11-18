@@ -6,6 +6,25 @@ html {
 
 body {
   margin: 0 auto;
+  background-color: #f4f3f1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 1060px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 /* Header */
@@ -15,23 +34,22 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 64px;
+  height: 4rem;
 }
 
 header .logo {
   border: 2px solid blue;
   display: flex;
-  
   align-items: center;
   flex: 1;
-  margin-left: 24px;
-  font-size: 32px;
+  margin-left: 1.5rem;
+  font-size: 2rem;
 }
 
 .logo img {
   border: 2px solid yellow;
-  height: 48px;
-  padding: 0 3px;
+  height: 3rem;
+  padding: 0 0.15rem;
 }
 
 header p {
@@ -47,12 +65,12 @@ header .logo span {
 
 .desktop ul li {
   display: inline;
-  font-size: 24px;
-  margin-right: 16px;
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 .desktop ul:last-child {
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .mobile {
@@ -61,7 +79,122 @@ header .logo span {
 
 /* Main */
 
+/* Banner section */
+.banner {
+  border: 3px solid red;
+  background-color: #bfbab0;
+  display: flex;
+}
+
+.banner-left-column {
+  max-width: 60%;
+}
+
+.banner .image-container {
+  border: 2px solid blue;
+  overflow: hidden;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.banner-text {
+  border: 2px solid green;
+  margin: 2rem 1.5rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+  margin-right: 1.5rem;
+  max-width: 40%;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1.65rem;
+}
+
+.banner-text h2 {
+  font-size: 1.85rem;
+  margin-bottom: 1.65rem;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  background-color: #49443c;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0.5rem;
+  max-width: 25rem;
+}
+
+.banner-button a {
+  color: white;
+}
 
 
+/* Information section */
+.information {
+  border: 3px solid red;
+  display: flex;
+}
+
+.information-left-column {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.information .image-container {
+  overflow: hidden;
+}
+
+.left-column-text h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.left-column-text p {
+  font-size: 1.85rem;
+  margin-bottom: 2rem;
+}
+
+.left-column-text span {
+  font-size: 1.5rem;
+}
+
+.information-right-column {
+  border: 2px solid green;
+  margin: 2rem 1.5rem 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.right-column-box {
+  display: flex;
+  border: 1px solid #b3ada2;
+}
+
+.image-box {
+  max-width: 35%;
+}
+
+.image-box img {
+  border: 1px solid orange;
+  height: auto;
+  padding: 1rem;
+}
+
+.right-column-box .text-box {
+  border: 1px solid pink;
+  max-width: 65%;
+}
+
+.information-right-column .bottom-box {
+  background-color: #bfbab0;
+}
 
 /* Footer */

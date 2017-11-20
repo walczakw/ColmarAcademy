@@ -24,14 +24,6 @@ body {
   }
 }
 
-/*
-
-@media only screen and (max-width: 760px) {
-  html {
-    font-size: 12px;
-  }
-}
-*/
 
 /* Header */
 
@@ -142,6 +134,19 @@ header .logo span {
 }
 
 
+@media only screen and (max-width: 1060px) {
+
+  .banner-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1.25rem;
+  }
+}
+
+
+
 /* Information section */
 .information {
   border: 3px solid red;
@@ -160,7 +165,7 @@ header .logo span {
   overflow: hidden;
 }
 
-.left-column-text h1 {
+.left-column-text h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
@@ -202,12 +207,13 @@ header .logo span {
   border: 1.5px solid orange;
   overflow: hidden;
   width: 35%;
-  height: auto;
   margin: 2rem;
 }
 
 .image-box img {
   display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .right-column-box .text-box {
@@ -218,13 +224,13 @@ header .logo span {
   justify-content: center;
 }
 
-.text-box h2 {
+.text-box h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.text-box h3 {
+.text-box h4 {
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: 0.75rem;
@@ -238,6 +244,61 @@ header .logo span {
 
 .information-right-column .bottom-box {
   background-color: #cdc9c1;
+}
+
+
+/* Courses section */
+.courses {
+  border: 3px solid red;
+  background-color: #cdc9c1;
+}
+
+.courses h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.courses-container {
+  border: 2.5px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2.25rem 5rem 2.25rem 5rem;
+}
+
+.courses-box {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  margin: 0.75rem;
+  background-color: #f4f3f1;
+  max-width: 30%;
+}
+
+.courses-box .course-info {
+  border: 3.5 solid pink;
+  margin: 1.25rem;
+}
+
+.course-info h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.course-info h4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.course-info:last-child {
+  margin-bottom: 1.75rem;
 }
 
 /* Footer */

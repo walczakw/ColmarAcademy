@@ -1,7 +1,9 @@
 /* Universal Styles */
 
 html {
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #3b3730;
 }
 
 body {
@@ -15,17 +17,21 @@ body {
   display: block;
 }
 
+
 @media only screen and (max-width: 1060px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
+
+/*
 
 @media only screen and (max-width: 760px) {
   html {
     font-size: 12px;
   }
 }
+*/
 
 /* Header */
 
@@ -82,18 +88,18 @@ header .logo span {
 /* Banner section */
 .banner {
   border: 3px solid red;
-  background-color: #bfbab0;
+  background-color: #cdc9c1;
   display: flex;
 }
 
 .banner-left-column {
-  max-width: 60%;
+  width: 60%;
+  margin: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .banner .image-container {
   border: 2px solid blue;
   overflow: hidden;
-  margin: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .banner-text {
@@ -104,16 +110,19 @@ header .logo span {
   justify-content: center;
   line-height: 1.2;
   margin-right: 1.5rem;
-  max-width: 40%;
+  width: 40%;
 }
 
 .banner-text h1 {
-  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
   margin-bottom: 1.65rem;
 }
 
 .banner-text h2 {
   font-size: 1.85rem;
+  font-weight: bold;
   margin-bottom: 1.65rem;
 }
 
@@ -129,6 +138,7 @@ header .logo span {
 
 .banner-button a {
   color: white;
+  letter-spacing: 0.1rem;
 }
 
 
@@ -151,18 +161,23 @@ header .logo span {
 }
 
 .left-column-text h1 {
-  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
 }
 
 .left-column-text p {
-  font-size: 1.85rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
   margin-bottom: 2rem;
 }
 
 .left-column-text span {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #514c43;
 }
 
 .information-right-column {
@@ -178,23 +193,51 @@ header .logo span {
   border: 1px solid #b3ada2;
 }
 
+.right-column-box:nth-child(2n+0) {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .image-box {
-  max-width: 35%;
+  border: 1.5px solid orange;
+  overflow: hidden;
+  width: 35%;
+  height: auto;
+  margin: 2rem;
 }
 
 .image-box img {
-  border: 1px solid orange;
-  height: auto;
-  padding: 1rem;
+  display: block;
 }
 
 .right-column-box .text-box {
-  border: 1px solid pink;
-  max-width: 65%;
+  border: 1.5px solid pink;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-box h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.text-box h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.text-box a {
+  font-size: 1.25rem;
+  color: #2B77FF;
 }
 
 .information-right-column .bottom-box {
-  background-color: #bfbab0;
+  background-color: #cdc9c1;
 }
 
 /* Footer */

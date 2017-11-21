@@ -301,4 +301,56 @@ header .logo span {
   margin-bottom: 1.75rem;
 }
 
+
+/* Thesis section */
+.thesis {
+  border: 3px solid red;
+}
+
+.thesis h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.thesis-container {
+  border: 2.5px solid blue;
+  margin: 2.25rem 1.75rem 2.25rem 1.75rem;
+  display: flex;
+}
+
+.thesis-left-column {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 1.75rem;
+}
+
+.left-column-text h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.left-column-text p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.thesis-right-column {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.thesis-right-column .top-box {
+  background-color: #cdc9c1;
+}
+
 /* Footer */

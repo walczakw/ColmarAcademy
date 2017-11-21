@@ -17,7 +17,6 @@ body {
   display: block;
 }
 
-
 @media only screen and (max-width: 1060px) {
   html {
     font-size: 12px;
@@ -74,6 +73,38 @@ header .logo span {
 .mobile {
   display: none;
 }
+
+
+
+@media only screen and (max-width: 700px) {
+
+  header {
+    height: 4.5rem;
+  }
+
+  header .desktop {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+  }
+
+  header .mobile {
+    border: 2px solid green;
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile ul {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
 
 /* Main */
 
@@ -145,6 +176,16 @@ header .logo span {
   }
 }
 
+@media only screen and (max-width: 780px) {
+
+  .banner-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1rem;
+  }
+}
 
 
 /* Information section */
@@ -302,6 +343,14 @@ header .logo span {
 }
 
 
+@media only screen and (max-width: 900px) {
+
+  .courses-container {
+    margin: 2.25rem 1rem 2.25rem 1rem;
+  }
+}
+
+
 /* Thesis section */
 .thesis {
   border: 3px solid red;
@@ -354,3 +403,32 @@ header .logo span {
 }
 
 /* Footer */
+footer {
+  border: 3px solid red;
+  display: flex;
+}
+
+footer span{
+  flex: 1;
+  margin: 1.25rem 0 2.25rem 1.75rem;
+}
+
+.footer-nav {
+  margin: 1.25rem 1.75rem 2.25rem 0;
+}
+
+.footer-nav {
+  display: inline;
+}
+
+.footer-nav a:first-child {
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 780px) {
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+}

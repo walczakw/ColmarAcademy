@@ -39,7 +39,6 @@ body {
 /* Header */
 
 header {
-  border: 3px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +46,6 @@ header {
 }
 
 header .logo {
-  border: 2px solid blue;
   display: flex;
   align-items: center;
   flex: 1;
@@ -56,7 +54,6 @@ header .logo {
 }
 
 .logo img {
-  border: 2px solid yellow;
   height: 3rem;
   padding: 0 0.15rem;
 }
@@ -103,13 +100,11 @@ header .logo span {
   }
 
   header .mobile {
-    border: 2px solid green;
     display: block;
     width: 100%;
   }
 
   header .mobile ul {
-    border: 2px solid blue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,8 +116,8 @@ header .logo span {
 /* Main */
 
 /* Banner section */
+
 .banner {
-  border: 3px solid red;
   background-color: #cdc9c1;
   display: flex;
 }
@@ -133,12 +128,10 @@ header .logo span {
 }
 
 .banner .image-container {
-  border: 2px solid blue;
   overflow: hidden;
 }
 
 .banner-text {
-  border: 2px solid green;
   margin: 2rem 1.5rem 2rem 0;
   display: flex;
   flex-direction: column;
@@ -223,13 +216,12 @@ header .logo span {
 
 
 /* Information section */
+
 .information {
-  border: 3px solid red;
   display: flex;
 }
 
 .information-left-column {
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -261,7 +253,6 @@ header .logo span {
 }
 
 .information-right-column {
-  border: 2px solid green;
   margin: 2rem 1.5rem 2rem 0;
   display: flex;
   flex-direction: column;
@@ -279,7 +270,6 @@ header .logo span {
 }
 
 .image-box {
-  border: 1.5px solid orange;
   overflow: hidden;
   width: 35%;
   margin: 2rem;
@@ -292,7 +282,6 @@ header .logo span {
 }
 
 .right-column-box .text-box {
-  border: 1.5px solid pink;
   width: 65%;
   display: flex;
   flex-direction: column;
@@ -372,9 +361,11 @@ header .logo span {
 
 
 /* Courses section */
+
 .courses {
-  border: 3px solid red;
   background-color: #cdc9c1;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .courses h2 {
@@ -382,11 +373,9 @@ header .logo span {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 2.25rem;
 }
 
 .courses-container {
-  border: 2.5px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -394,7 +383,6 @@ header .logo span {
 }
 
 .courses-box {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   margin: 0.75rem;
@@ -403,7 +391,6 @@ header .logo span {
 }
 
 .courses-box .course-info {
-  border: 3.5 solid pink;
   margin: 1.25rem;
 }
 
@@ -440,7 +427,6 @@ header .logo span {
   }
 
   .courses-container-mobile {
-    border: 2px solid blue;
     display: block;
     max-width: 100%;
     margin: 1rem;
@@ -469,11 +455,7 @@ header .logo span {
 }
 
 
-
 /* Thesis section */
-.thesis {
-  border: 3px solid red;
-}
 
 .thesis h2 {
   font-family: "Open Sans", sans-serif;
@@ -484,13 +466,11 @@ header .logo span {
 }
 
 .thesis-container {
-  border: 2.5px solid blue;
   margin: 2.25rem 1.75rem 2.25rem 1.75rem;
   display: flex;
 }
 
 .thesis-left-column {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -511,7 +491,6 @@ header .logo span {
 }
 
 .thesis-right-column {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -536,14 +515,12 @@ header .logo span {
     display: inline;
     width: 100%;
   }
-
 }
 
 
-
 /* Footer */
+
 footer {
-  border: 3px solid red;
   display: flex;
 }
 
@@ -570,9 +547,6 @@ footer span{
     display: none;
   }
 }
-
-
-
 
 @media only screen and (max-width: 780px) {
 

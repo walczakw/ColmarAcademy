@@ -1,2 +1,1 @@
-# ColmarAcademy
-https://walczakw.github.io/ColmarAcademy/
+https://walczakw.github.io/colmar-academy/
